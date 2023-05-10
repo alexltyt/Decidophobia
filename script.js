@@ -75,3 +75,12 @@ function clearAll() {
       checkbox.checked = isSelected;
     });
   }
+  
+  function toggleTheme() {
+    var body = document.body;
+    if (body.classList.contains('light-theme')) {
+      body.classList.remove('light-theme');
+    } else {
+      body.classList.add('light-theme');
+    }
+  }

@@ -10,9 +10,14 @@
     <button onclick="addRestaurant()">Confirm</button>
   </div>
 
-  <div id="nominated">
-    <!-- Restaurants will appear here -->
+<div id="nominated">
+    <div>
+      <input type="checkbox" id="selectAll" onclick="selectAll()">
+      <label for="selectAll">Select All / Unselect All</label>
+    </div>
+    <!-- Restaurants with checkboxes will appear here -->
   </div>
+  
 
   <div class="input-field">
     <input type="number" id="randomCount" min="1" placeholder="Enter Number of Random Choices">
@@ -22,7 +27,7 @@
   <div id="result">
     <!-- Random restaurants will appear here -->
   </div>
-
+  <button onclick="clearAll()">Clear All</button>
   <script src="script.js"></script>
 </body>
 </html>

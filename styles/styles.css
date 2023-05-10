@@ -29,13 +29,13 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 1.4rem;
 }
 
 .input-field input {
   flex: 1;
-  padding: 10px;
-  margin-right: 10px;
+  padding: 0.7rem;
+  margin-right: 0.7rem;
   border: 1px solid #3a3a3a;
   border-radius: 3px;
   background-color: #1c1c1c;
@@ -43,7 +43,7 @@ h1 {
 }
 
 .input-field button, #clear-btn {
-  padding: 10px 20px;
+  padding: 0.7rem 1.4rem;
   border: none;
   border-radius: 3px;
   background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
@@ -54,8 +54,8 @@ h1 {
 #nominated {
   border: 1px solid #3a3a3a;
   border-radius: 3px;
-  padding: 10px;
-  margin-bottom: 20px;
+  padding: 0.7rem;
+  margin-bottom: 1.4rem;
   background-color: #1c1c1c;
 }
 #nominated hr{
@@ -69,12 +69,12 @@ h1 {
 }
 
 #nominated label {
-  margin-left: 10px;
+  margin-left: 0.7rem;
   color: #fff;
 }
 
 #result {
-  margin-bottom: 20px;
+  margin-bottom: 1.4rem;
 }
 
 #result p.final {

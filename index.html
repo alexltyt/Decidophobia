@@ -5,29 +5,33 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <div class="input-field">
-    <input type="text" id="restaurantInput" placeholder="Enter Restaurant Name">
-    <button onclick="addRestaurant()">Confirm</button>
-  </div>
-
-<div id="nominated">
-    <div>
-      <input type="checkbox" id="selectAll" onclick="selectAll()">
-      <label for="selectAll">Select All / Unselect All</label>
+  <div class="container">
+    <h1>Random Restaurant</h1>
+    <div class="input-field">
+      <input type="text" id="restaurantInput" placeholder="Enter Restaurant Name">
+      <button onclick="addRestaurant()">Confirm</button>
     </div>
-    <!-- Restaurants with checkboxes will appear here -->
-  </div>
-  
 
-  <div class="input-field">
-    <input type="number" id="randomCount" min="1" placeholder="Enter Number of Random Choices">
-    <button onclick="randomize()">Randomize</button>
+    <div id="nominated">
+      <div>
+        <input type="checkbox" id="selectAll" onclick="selectAll()">
+        <label for="selectAll">Select All / Unselect All</label>
+      </div>
+      <!-- Restaurants with checkboxes will appear here -->
+    </div>
+
+    <div class="input-field">
+      <input type="number" id="randomCount" min="1" placeholder="Enter Number of Random Choices">
+      <button onclick="randomize()">Randomize</button>
+    </div>
+
+    <div id="result">
+      <!-- Random restaurants will appear here -->
+    </div>
+
+    <button onclick="clearAll()" id="clear-btn">Clear All</button>
   </div>
 
-  <div id="result">
-    <!-- Random restaurants will appear here -->
-  </div>
-  <button onclick="clearAll()">Clear All</button>
   <script src="script.js"></script>
 </body>
 </html>

@@ -48,7 +48,7 @@ function randomize() {
       resultDiv.innerHTML = "<p>" + "Randomizing... "+selectedRestaurants[i % selectedRestaurants.length] + "</p>";
       i++;
       intervalTime += 10; // increase interval time to create deceleration effect
-      if (i > selectedRestaurants.length * 3) {
+      if (i > selectedRestaurants.length * 2) {
         clearInterval(interval);
         resultDiv.innerHTML = "<p class='final'>" + randomRestaurants.join(", ") + "</p>";
       } else {

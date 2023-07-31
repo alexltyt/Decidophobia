@@ -16,23 +16,24 @@
       <button onclick="addRestaurant()">Confirm</button>
     </div>
 
+    <!-- Restaurants with checkboxes -->
     <div id="nominated">
       <div>
         <input type="checkbox" id="selectAll" onclick="selectAll()">
         <label for="selectAll">Select All</label>
       </div>
       <hr>
-      <!-- Restaurants with checkboxes will appear here -->
     </div>
-
+    
+    <!-- Result of random restaurants -->
+    <div id="result">
+    </div>
+    
     <div class="input-field">
       <input type="number" id="randomCount" min="1" placeholder="Number of Random Choices">
       <button onclick="randomize()">Randomize</button>
     </div>
-
-    <div id="result">
-      <!-- Random restaurants will appear here -->
-    </div>
+    
 
     <button onclick="clearAll()" id="clear-btn">Clear All</button>
   </div>
